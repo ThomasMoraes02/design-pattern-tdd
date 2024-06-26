@@ -1,0 +1,29 @@
+{
+    "name": "thomas-moraes/design-patterns-tdd",
+    "description": "Design Patterns com PHP + TDD",
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPattern\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignPattern\\Test\\" : "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Moraes",
+            "email": "tho.vini7@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
