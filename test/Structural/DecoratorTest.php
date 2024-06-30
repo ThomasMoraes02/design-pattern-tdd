@@ -7,6 +7,9 @@ use DesignPattern\Structural\Decorator\Decorators\InsuranceDecorator;
 use DesignPattern\Structural\Decorator\Example2\Notifiers\SmsNotifier;
 use DesignPattern\Structural\Decorator\Example2\Notifiers\EmailNotifier;
 use DesignPattern\Structural\Decorator\Example2\Notifiers\WhatsAppNotifier;
+use DesignPattern\Structural\Decorator\Example3\AuthDecorator;
+use DesignPattern\Structural\Decorator\Example3\Checkout;
+use DesignPattern\Structural\Decorator\Example3\LogDecorator;
 
 beforeEach(function() {
     $this->basicShipping = new BasicShipping(150.0);
@@ -60,5 +63,19 @@ describe("Example 2 - Notifier", function() {
         $whatsApp->notify();
         $console = ob_get_clean();
         expect($console)->toBe("Email sent.SMS sent.WhatsApp sent.");
+    });
+});
+
+describe("Example 3 - UseCase", function() {
+    it("Deve realizar autenticação, salvar log e executar checkout", function() {
+        $checkout = new Checkout();
+        $logDecorator = new LogDecorator($checkout);
+        $authDecorator = new AuthDecorator($logDecorator);
+        $authDecorator->execute();
+
+        ob_start();
+        $authDecorator->execute();
+        $console = ob_get_clean();
+        expect($console)->toBe("Execute AuthDecorator.Execute LogDecorator.Execute Checkout.");
     });
 });
