@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-family: Source SansSerif Pro, Arial, sans-serif;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2rem;
+                background-color: #fff;
+                color: #000;
+            }
+
+            body > ul > li {
+                font-size: larger;
+            }
+
+            h2 {
+                font-size: larger;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 2rem;
+                padding: 0 0 0 1rem;
+                text-indent: -1rem;
+            }
+
+            .success:before {
+                color: #4e9a06;
+                content: '✓';
+                padding-right: 0.5rem;
+            }
+
+            .defect {
+                color: #a40000;
+            }
+
+            .defect:before {
+                color: #a40000;
+                content: '✗';
+                padding-right: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/ChainOfResponsabilityTest.php</h2>
+        <ul>
+            <li class="success">Deve ser capaz de processar um pedido</li>
+            <li class="success">Deve retornar uma mensagem de erro quando o carrinho estiver vazio</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/CommandTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um pedido</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/IteratorTest.php</h2>
+        <ul>
+            <li class="success">Deve iterar sobre uma coleção de produtos</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/MementoTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um carrinho de compras</li>
+            <li class="success">Deve criar um produto, adicionar no carrinho e restaurar o carrinho</li>
+            <li class="success">Deve remover um produto do carrinho e restaurar o carrinho</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/ObserverTest.php</h2>
+        <ul>
+            <li class="success">Deve adicionar observers a um pedido</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/StateTest.php</h2>
+        <ul>
+            <li class="success">Deve atualizar os estados de um pedido</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/StrategyTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um pagamento</li>
+            <li class="success">Deve lançar uma exceção para um método inválido</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Behavioral/TemplateMethodTest.php</h2>
+        <ul>
+            <li class="success">Deve calcular um frete de transporte terrestre</li>
+            <li class="success">Deve calcular um frete de transporte aéreo</li>
+            <li class="success">Deve calcular um frete de transporte marítimo</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Creational/BuilderTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um select em mysql</li>
+            <li class="success">Deve criar um select em postgres</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Creational/FactoryMethodTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um produto eletrônico</li>
+            <li class="success">Deve criar um produto de roupa</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Creational/PrototypeTest.php</h2>
+        <ul>
+            <li class="success">Deve clonar um produto</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Creational/SingletonTest.php</h2>
+        <ul>
+            <li class="success">Deve testar o padrão singleton para um objeto de instância unica</li>
+            <li class="success">Deve alterar uma configuração do Singleton</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Structural/AdapterTest.php</h2>
+        <ul>
+            <li class="success">Deve criar um pagamento utilizando a Pagarme</li>
+            <li class="success">Deve criar um pagamento utilizando a Moip</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Structural/DecoratorTest.php</h2>
+        <ul>
+            <li class="success">Deve calcular o frete</li>
+            <li class="success">Deve calcular o frete e adicionar seguro</li>
+            <li class="success">Deve calcular o frete, adicionar seguro e adicionar embalagem</li>
+            <li class="success">`Example 2 - Notifier` → it Deve notificar por email</li>
+            <li class="success">`Example 2 - Notifier` → it Deve notificar por email e sms</li>
+            <li class="success">`Example 2 - Notifier` → it Deve notificar por email, sms e whatsapp</li>
+            <li class="success">`Example 3 - UseCase` → it Deve realizar autenticação, salvar log e executar checkout</li>
+        </ul>
+        <h2>/var/www/html/projects/design-patterns-tdd/test/Structural/ProxyTest.php</h2>
+        <ul>
+            <li class="success">Deve retornar um array</li>
+        </ul>
+    </body>
+</html>

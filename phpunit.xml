@@ -29,4 +29,9 @@
           ignoreDeprecatedCodeUnits="true"
           disableCodeCoverageIgnore="true">
     </coverage>
+
+    <logging>
+        <testdoxHtml outputFile="testdox.html"/>
+        <testdoxText outputFile="testdox.txt"/>
+    </logging>
 </phpunit>

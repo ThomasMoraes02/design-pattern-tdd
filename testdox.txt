@@ -1,0 +1,61 @@
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/ChainOfResponsabilityTest.php
+ [x] Deve ser capaz de processar um pedido
+ [x] Deve retornar uma mensagem de erro quando o carrinho estiver vazio
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/CommandTest.php
+ [x] Deve criar um pedido
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/IteratorTest.php
+ [x] Deve iterar sobre uma coleção de produtos
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/MementoTest.php
+ [x] Deve criar um carrinho de compras
+ [x] Deve criar um produto, adicionar no carrinho e restaurar o carrinho
+ [x] Deve remover um produto do carrinho e restaurar o carrinho
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/ObserverTest.php
+ [x] Deve adicionar observers a um pedido
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/StateTest.php
+ [x] Deve atualizar os estados de um pedido
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/StrategyTest.php
+ [x] Deve criar um pagamento
+ [x] Deve lançar uma exceção para um método inválido
+
+/var/www/html/projects/design-patterns-tdd/test/Behavioral/TemplateMethodTest.php
+ [x] Deve calcular um frete de transporte terrestre
+ [x] Deve calcular um frete de transporte aéreo
+ [x] Deve calcular um frete de transporte marítimo
+
+/var/www/html/projects/design-patterns-tdd/test/Creational/BuilderTest.php
+ [x] Deve criar um select em mysql
+ [x] Deve criar um select em postgres
+
+/var/www/html/projects/design-patterns-tdd/test/Creational/FactoryMethodTest.php
+ [x] Deve criar um produto eletrônico
+ [x] Deve criar um produto de roupa
+
+/var/www/html/projects/design-patterns-tdd/test/Creational/PrototypeTest.php
+ [x] Deve clonar um produto
+
+/var/www/html/projects/design-patterns-tdd/test/Creational/SingletonTest.php
+ [x] Deve testar o padrão singleton para um objeto de instância unica
+ [x] Deve alterar uma configuração do Singleton
+
+/var/www/html/projects/design-patterns-tdd/test/Structural/AdapterTest.php
+ [x] Deve criar um pagamento utilizando a Pagarme
+ [x] Deve criar um pagamento utilizando a Moip
+
+/var/www/html/projects/design-patterns-tdd/test/Structural/DecoratorTest.php
+ [x] Deve calcular o frete
+ [x] Deve calcular o frete e adicionar seguro
+ [x] Deve calcular o frete, adicionar seguro e adicionar embalagem
+ [x] `Example 2 - Notifier` → it Deve notificar por email
+ [x] `Example 2 - Notifier` → it Deve notificar por email e sms
+ [x] `Example 2 - Notifier` → it Deve notificar por email, sms e whatsapp
+ [x] `Example 3 - UseCase` → it Deve realizar autenticação, salvar log e executar checkout
+
+/var/www/html/projects/design-patterns-tdd/test/Structural/ProxyTest.php
+ [x] Deve retornar um array
+
