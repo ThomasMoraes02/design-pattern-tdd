@@ -47,6 +47,11 @@
  [x] Deve criar um pagamento utilizando a Pagarme
  [x] Deve criar um pagamento utilizando a Moip
 
+/var/www/html/projects/design-patterns-tdd/test/Structural/CompositeTest.php
+ [x] Deve criar validações com composite
+ [x] Deve retornr o erro ao validar string vazia com composite
+ [x] Deve retornr o erro ao validar inteiro com composite
+
 /var/www/html/projects/design-patterns-tdd/test/Structural/DecoratorTest.php
  [x] Deve calcular o frete
  [x] Deve calcular o frete e adicionar seguro
